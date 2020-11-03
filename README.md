@@ -1,6 +1,6 @@
 # readme
   
-  ![screenshot](./output/readmescreenshot.png)
+  ![screenshot](./output/readmescreenshot.PNG)
   
   ![github](https://img.shields.io/badge/license-MIT-blue.svg)
 
