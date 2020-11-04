@@ -7,54 +7,50 @@ const questions = [
     {
         type: "input",
         name: "Github",
-        message: "What is your username?",
-    },
-    {
-        type: "input",
-        name: "ProjectTitle",
-        message: "What is your project title?",
-    },
-   
-    {
-        type: "input",
-        name:"description",
-        message: "Please add a description of your project?",
-            },
-    {
-        type: "input",
-        name:"tableContents",
-        message:"Do your want to add a table of contents section(type section title)?",
-    },
-    {
-        type: "input",
-        name:"installation",
-        message:"Do you want to add a installation section(type section title)?",
-    },
-    {
-        type: "input",
-        name:"usage",
-        message:"Do you want to add a usage section(type section title)?",
+        message: "Please enter your Github User Name.",
     },
 
     {
         type: "input",
-        name:"contribution",
-        message:"Do you want to add a contribution section(type section title)?",
+        name: "ProjectTitle",
+        message: "Please enter your project title.",
     },
+   
     {
         type: "input",
-        name:"tests",
-        message:"Do you want to add a tests section(type section title)?",
-    },
+        name:"Description",
+        message: "Please enter a description of your project.",
+            },
+
     {
         type: "input",
-        name:"questions",
-        message:"Do you want to add a questions section(type section title)?",
+        name:"Installation",
+        message:"Please enter any installation instructions.",
     },
+
     {
         type: "input",
-        name:"license",
-        message:"Do you want to add a license section(type section title)?",
+        name:"Usage",
+        message:"Please enter your user story.",
+    },
+
+    {
+        type: "input",
+        name:"Contributing",
+        message:"Please enter any contributing guidelines.",
+        
+    },
+
+    {
+        type: "input",
+        name:"Tests",
+        message:"Please enter any test for your application.",
+    },
+
+    {
+        type: "input",
+        name:"Questions",
+        message:"Please enter your contact information for questions.",
     },
 
     {

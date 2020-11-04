@@ -10,26 +10,28 @@ function generateMarkdown(data) {
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contribution](#contribution)
+  * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
  
 
   ## Description
-  ${data.description}
+  ${data.Description}
 
   ## Installation
-  ${data.installation}
+  ${data.Installation}
 
   ## Usage
-  ${data.usage}
+  ${data.Usage}
 
-  ## Contribution
-  ${data.contribution}
+  ## Contributing
+  ${data.Contributing}
+
   ## Tests
-  ${data.tests}
+  ${data.Tests}
+  
   ## Questions
-  ${data.questions}
+  ${data.Questions}
 `;
 }
 module.exports = generateMarkdown;
